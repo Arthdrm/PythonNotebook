@@ -14,12 +14,13 @@ scikit-learn = "*"
 matplotlib = "*"
 seaborn = "*"
 scipy = "*"
-torch = "*"
-torchvision = "*"
-torchaudio = "*"
 jupyterlab = "*"
 numpy = "*"
-
+torchinfo = "*"
+tensorboard = "*"
+torch = "2.2.2+cu121"
+torchaudio = "2.2.2+cu121"
+torchvision = "0.17.2+cu121"
 [dev-packages]
 
 [requires]
